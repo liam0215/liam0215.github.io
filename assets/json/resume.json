@@ -1,77 +1,112 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
+  "education": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
+      "institution": "Cornell University",
+      "url": "https://www.cornell.edu/",
+      "area": "Computer Science",
+      "studyType": "BA",
+      "startDate": "08/2018",
+      "endDate": "08/2023",
+      "score": "3.35/4.3",
+      "courses": [
+        "Distributed Systems", 
+        "Advanced Systems", 
+        "Advanced Networking",
+        "System Security", 
+        "Operating Systems", 
+        "Computer Systems Organization and Programming"
       ]
     }
   ],
-  "volunteer": [],
-  "education": [
+  "research experience": [
+      {
+        "name": "Operating Systems Group, the Max Planck Institute for Software Systems",
+        "position": "Research Intern",
+        "startDate": "06/2023",
+        "endDate": "Present",
+        "summary": "Working with Prof. Antoine Kaufmann on host networking stack research. Worked on extending TAS, an optimized userspace TCP stack, by adding optimizations for larger flows, including hardware offload and extended mbuf support (DPDK). I'm also working on Virtuoso, a host networking stack for virtualized environments. My primary contribution has been adding support for Docker containers and experiments. Virtuoso is currently under submission to NSDI'24 (https://arxiv.org/abs/2309.14016). Additionally, I'm working on modifying TAS to support μs scale reconfigurable optical networks in collaboration with Prof. Yiting Xia."
+      },
+      {
+        "name": "Theory Meets Practice Lab, Cornell University",
+        "position": "Undergraduate Research Assistant",
+        "startDate": "10/2022",
+        "endDate": "Present",
+        "summary": "Working with Professor Lorenzo Alvisi's group on a follow up paper to Basil: Breaking up BFT with ACID (transactions) (I was not involved in this paper). We are extending the Byzantine Fault Tolerant key-value store presented in the paper to support range queries and SQL. I am responsible for writing a C++ implementation of AuctionMark and TPCC, two relational database benchmarks. I'm also responsible for designing and implementing all client side SQL support and APIs."
+      }
+  ],
+  "professional experience": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "name": "Microsoft",
+      "position": "Software Engineer Intern",
+      "startDate": "05/2022",
+      "endDate": "08/2022",
+      "summary": "Worked on the Azure Storage Capacity Management team on designing and implementing a leader based crash fault tolerant consensus library for partitioning requests over a cluster of workers. (C#, .NET)"
+    },
+    {
+      "name": "Quantum Resistant Ledger",
+      "position": "Software Engineer Intern",
+      "startDate": "12/2021",
+      "endDate": "05/2022",
+      "summary": "Rewrote core library from C++ to Rust and added multithreading support for concurrent XMSS signature verification."
+    },
+    {
+      "name": "KabCash",
+      "position": "Cofounder/Software Engineer",
+      "startDate": "08/2021",
+      "endDate": "11/2021",
+      "summary": "Helped build a community based lending solution for underbanked adults in Latin America. Built server side logic and infrastructure using Python, Flask, and Terraform. Wrote business logic and deployed AWS autoscaling groups for production and testing."
+    },
+    {
+      "name": "Dropbox",
+      "position": "Software Engineer Intern",
+      "startDate": "06/2021",
+      "endDate": "08/2021",
+      "summary": "Designed and implemented sync progress aggregation for backups. (Rust)"
+    },
+    {
+      "name": "Dropbox",
+      "position": "Launch Intern",
+      "startDate": "06/2020",
+      "endDate": "08/2020",
+      "summary": "Developed an API for retrieving a summary of sync failures. (Rust/Python)"
+    },
+    {
+      "name": "Cornell University",
+      "position": "Precollege Residential Community Advisor",
+      "startDate": "06/2019",
+      "endDate": "08/2019",
+      "summary": "Led events for students, enforced policy on the floor and within the residence hall, and was responsible for establishing a sense of community within the residence hall."
+    },
+    {
+      "name": "01",
+      "position": "Lead Mentor",
+      "startDate": "12/2016",
+      "endDate": "01/2017",
+      "summary": "Taught the fundamentals of computer science to 20 kids between the ages of 6 and 13."
+    }
+  ],
+  "teaching experience": [
+    {
+      "name": "Operating Systems Practicum, Cornell University",
+      "position": "Undergraduate Teaching Assistant",
+      "startDate": "01/2023",
+      "endDate": "05/2023",
+      "summary": "Graded student OS assignments in C in the Earth and Grass Operating System (EGOS) and EGOS-2000."
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
+      "title": "1st Place Startup Prize at Miami Hack Week",
+      "date": "2021",
+      "awarder": "Backend Capital"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "title": "2nd Place at the Miami Bitcoin Hackathon",
+      "date": "2018"
+    },
+    {
+      "title": "1st Place at the Matrix & Visa IoT and AI Hackathon",
+      "date": "2017"
     }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  ]
 }
