@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://mpi-sws.org/'>Research Intern @ The Max Planck Institute For Software System</a>.
+subtitle: <a href='https://mpi-sws.org/'>Research Intern @ The Max Planck Institute For Software Systems</a>.
 
 profile:
   align: right
