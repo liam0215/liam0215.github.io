@@ -3,18 +3,17 @@ layout: default
 ---
 <!-- _layouts/cv.html -->
 {% unless site.data.resume %}
-<div class="post">
-
-  <article>
-    <object data="../assets/pdf/cv.pdf" width="1000" height="1000" type='application/pdf'></object>
-  </article>
+<div class="post align-items-center">
+  <div class="cv">
+    <object data="../assets/pdf/cv.pdf" width="100%" height="80%" type='application/pdf'></object>
+  </div>
 
 </div>
 {% else %}
-<div class="post">
+<div class="post align-items-center">
   <div class="cv">
-    <object data="../assets/pdf/cv.pdf" width="1000" height="1000" type='application/pdf'></object>
-    </div>
+    <object data="../assets/pdf/cv.pdf" width="100%" height="80%" type='application/pdf'></object>
+  </div>
 
 </div>
 {% endunless %}
