@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 <mark><span style="color: red">I am currently applying to PhD programs!</span></mark>
 
 
-I am a research intern at the MPI-SWS [Operating Systems Group](https://os.mpi-sws.org/), where I am advised by [Antoine Kaufmann](https://people.mpi-sws.org/~antoinek/index.html) and working on investigating TCP stacks for virtualized environments and more recently for μs scale reconfigurable optical networks. Previously, I was a Bachelor's student at Cornell University where I conducted research (ongoing) under the supervision of [Lorenzo Alvisi](https://www.cs.cornell.edu/lorenzo/) investigating byzantine fault tolerant relational databases. 
+I am a software engineer at Microsoft in the Virtual Machines and Containers/Linux on Windows team, located in Seattle. Previously, I was a research intern at the MPI-SWS [Operating Systems Group](https://os.mpi-sws.org/), where I was advised by [Antoine Kaufmann](https://people.mpi-sws.org/~antoinek/index.html) and worked on investigating TCP stacks for virtualized environments and more recently for μs scale reconfigurable optical networks. Before that, I was a Bachelor's student at Cornell University where I conducted research (ongoing) under the supervision of [Lorenzo Alvisi](https://www.cs.cornell.edu/lorenzo/) investigating byzantine fault tolerant relational databases. 
 
 
 I'm excited about computer systems, construed broadly, with an interest in tackling problems concerning the fault tolerance and performance of operating systems, networks, distributed systems, and architectures. Based on my past research experiences, I find two domains particularly fascinating: datacenter systems and networks, and byzantine fault tolerant systems.
