@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a PhD student in UC San Diego's Systems and Networking group, advised by [Amy Ousterhout](https://amyousterhout.com/) and [Alex Snoeren](https://cseweb.ucsd.edu/~snoeren/). I work on operating systems and datacenter infrastructure. My current research focuses on building software runtimes that schedule and offload microsecond-scale tasks, such as compression and signature verification, to on-chip accelerators.
 
-In summer 2026, I interned with Microsoft Research and the Azure Systems Research Group. I benchmarked the overhead of snapshotting and restoring VMs when pausing coding-agent sandboxes between turns and identified optimizations to reduce snapshot latency by 88%. I implemented scatter-gather hypercalls and a decoupled VMM networking backend in Nanvix, and ran experiments on how state persistence affects coding-agent performance across task lengths.
+In summer 2026, I interned with Microsoft Research and the Azure Systems Research Group. I benchmarked the overhead of snapshotting and restoring VMs when pausing coding-agent sandboxes between turns and identified optimizations to reduce snapshot latency by 88%. I implemented scatter-gather hypercalls and a decoupled VMM networking backend in Nanvix, and ran experiments on how state persistence affects coding-agent performance across task horizons.
 
 Before joining UC San Diego, I was a software engineer in Microsoft's Azure Core OS group, where I worked on VMBus and contributed to the [OpenVMM and OpenHCL virtualization projects](https://github.com/microsoft/openvmm).
 
