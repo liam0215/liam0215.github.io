@@ -6,7 +6,8 @@ subtitle: <a href='https://www.sysnet.ucsd.edu/sysnet/'>Computer Science PhD stu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
+  image_alt: Liam Arzola
   # image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
