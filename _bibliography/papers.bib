@@ -1,16 +1,30 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @article{virtuoso,
-  title={Virtuoso: High Resource Utilization and μs-scale Performance Isolation in a Shared Virtual Machine TCP Network Stack},
+  title={Tail Contagion: Sub-microsecond Time Protection in Shared Software Network Datapaths},
   author={Stolet, Matheus and Arzola, Liam and Peter, Simon and Kaufmann, Antoine},
-  abstract={Virtualization improves resource efficiency and ensures security and performance isolation for cloud applications. To that end, operators today use a layered architecture that runs a separate network stack instance in each VM and container connected to a separate virtual switch. Decoupling through layering reduces complexity, but induces performance and resource overheads that are at odds with increasing demands for network bandwidth, communication requirements for large distributed applications, and low latency. We present Virtuoso, a new software networking stack for VMs and containers. Virtuoso performs a fundamental re-organization of the networking stack to maximize CPU utilization, enforce isolation, and minimize networking stack overheads. We maximize utilization by running one elastically shared network stack instance on dedicated cores; we enforce isolation by performing central and fine-grained per-packet resource accounting and scheduling; we reduce overheads by building a single-layer data path with a one-shot fast-path incorporating all processing from the TCP transport layer through network virtualization and virtual switching. Virtuoso improves resource utilization by up to 50%, latencies by up to 42% compared to other virtualized network stacks without sacrificing isolation, and keeps processing overhead within 11.5% of unvirtualized network stacks.},
-  journal={Under Submission},
-  year={2023},
+  journal={arXiv preprint},
+  year={2026},
+  note={First posted September 2023. Revised April 2026.},
+  abstract={Virtuoso budgets CPU time per tenant to limit tail-latency interference in shared software network datapaths. In the TAS TCP stack, it cut tail latency for a tenant facing interference by a factor of 7.8 while staying within 5 percent of the unmodified stack's throughput.},
+  arxiv={2309.14016},
+  eprint={2309.14016},
   url={https://arxiv.org/abs/2309.14016},
-  pdf={virtuoso.pdf},
-  dimensions={true},
+  pdf={https://arxiv.org/pdf/2309.14016},
+  selected={true}
+}
+
+@inproceedings{pesto,
+  title={Pesto: Cooking up High Performance BFT Queries},
+  author={Suri-Payer, Florian and Giridharan, Neil and Arzola, Liam and Cohen, Shir and Alvisi, Lorenzo and Crooks, Natacha},
+  booktitle={Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles (SOSP)},
+  year={2025},
+  pages={529--554},
+  doi={10.1145/3731569.3764799},
+  abstract={Pesto is a Byzantine fault-tolerant database that supports interactive SQL transactions. Its replicas synchronize on demand, allowing queries to run efficiently while preserving serializability in the presence of faulty replicas.},
+  html={https://doi.org/10.1145/3731569.3764799},
+  pdf={https://www.cs.cornell.edu/lorenzo/papers/Suri25Pesto.pdf},
+  code={https://github.com/fsuri/Pequin-Artifact},
   selected={true}
 }

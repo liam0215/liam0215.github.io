@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sysnet.ucsd.edu/sysnet/'>PhD Student @ UC San Diego's Systems and Networking group</a>.
+subtitle: <a href='https://www.sysnet.ucsd.edu/sysnet/'>Computer Science PhD student at UC San Diego</a>
 
 profile:
   align: right
@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student at UCSD's Systems and Networking group, where I'm advised by [Amy Ousterhout](https://amyousterhout.com/) and [Alex Snoeren](https://cseweb.ucsd.edu/~snoeren/). My current research focuses on μs scale scheduling for hardware accelerators.
+I'm a PhD student in UC San Diego's Systems and Networking group, advised by [Amy Ousterhout](https://amyousterhout.com/) and [Alex Snoeren](https://cseweb.ucsd.edu/~snoeren/). I work on operating systems and datacenter infrastructure. My current research focuses on building software runtimes that schedule and offload microsecond-scale tasks, such as compression and signature verification, to on-chip accelerators.
 
-Before joining UCSD, I was a software engineer at Microsoft in the Core OS>Virtual Machines and Containers>Linux on Windows team, located in Seattle. Before that I was a research intern at the MPI-SWS [Operating Systems Group](https://os.mpi-sws.org/), where I was advised by [Antoine Kaufmann](https://people.mpi-sws.org/~antoinek/index.html) and worked on investigating TCP stacks for virtualized environments and then for μs scale reconfigurable optical networks. I completed my Bachelor's degree at Cornell University where I conducted research under the supervision of [Lorenzo Alvisi](https://www.cs.cornell.edu/lorenzo/) investigating byzantine fault tolerant relational databases. 
+In summer 2026, I interned with Microsoft Research and the Azure Systems Research Group, where I studied the efficiency of hierarchical key-value caching for large language model agents. Before joining UC San Diego, I was a software engineer in Microsoft's Azure Core OS group, where I worked on VMBus and contributed to the [OpenVMM and OpenHCL virtualization projects](https://github.com/microsoft/openvmm).
 
-I'm excited about computer systems, construed broadly, with an interest in tackling problems concerning the fault tolerance and performance of operating systems, networks, distributed systems, and computer architectures. Based on my past research experiences, I find two domains particularly fascinating: datacenter systems and byzantine fault tolerant systems.
+I previously worked with [Antoine Kaufmann](https://people.mpi-sws.org/~antoinek/index.html) at the [MPI-SWS Operating Systems Group](https://os.mpi-sws.org/) on TCP stacks for virtualized environments and reconfigurable optical networks. I earned my B.A. in Computer Science at Cornell University, where I worked with [Lorenzo Alvisi](https://www.cs.cornell.edu/lorenzo/) on Pesto, a Byzantine fault-tolerant SQL database.

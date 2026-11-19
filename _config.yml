@@ -6,9 +6,11 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Liam
 middle_name: 
 last_name: Arzola
-email: lma77@cornell.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+email: larzola@ucsd.edu
+description: >-
+  Liam Arzola is a computer science PhD student at UC San Diego researching
+  operating systems, datacenter infrastructure, and microsecond-scale scheduling
+  for on-chip accelerators.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -271,8 +273,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Arzola]
+  first_name: [Liam, L.]
 
   style: apa
   locale: en
